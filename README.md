@@ -39,7 +39,7 @@ pnpm preview
 
 ## GitHub Pagesについて
 
-`.github/workflows/deploy-pages.yml`は手動実行だけを許可した準備用設定です。リポジトリ作成、push、Pages設定、ワークフロー実行は自動では行いません。公開前にリポジトリ名、公開範囲、ライセンスを決めてください。
+公開版はGitHub Actionsでテストと本番ビルドを行い、GitHub Pagesへ配置しています。`.github/workflows/deploy-pages.yml`は、意図しない更新を避けるため手動実行だけを許可しています。
 
 ## データと注意事項
 
@@ -50,7 +50,7 @@ pnpm preview
 
 ## 対応状況
 
-初期確認対象はWindows版Microsoft EdgeとGoogle Chromeです。GitHub Pages上での実配置確認は、公開承認後に行います。
+GitHub Pages上での起動と主要画面は確認済みです。Windows版Microsoft EdgeとGoogle Chromeそれぞれでの最終確認は今後行います。
 
 ## ライセンス
 
