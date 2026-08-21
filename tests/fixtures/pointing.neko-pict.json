@@ -1,0 +1,33 @@
+{
+  "format": "natsuneko-pictogram-project",
+  "schemaVersion": 1,
+  "canvasSize": 512,
+  "color": "#E98242",
+  "pngSize": 512,
+  "joints": {
+    "head": { "x": 0.48, "y": 0.15 },
+    "leftShoulder": { "x": 0.38, "y": 0.29 },
+    "rightShoulder": { "x": 0.58, "y": 0.29 },
+    "leftElbow": { "x": 0.34, "y": 0.45 },
+    "rightElbow": { "x": 0.73, "y": 0.3 },
+    "leftHand": { "x": 0.32, "y": 0.61 },
+    "rightHand": { "x": 0.9, "y": 0.3 },
+    "hip": { "x": 0.48, "y": 0.56 },
+    "leftKnee": { "x": 0.42, "y": 0.73 },
+    "rightKnee": { "x": 0.55, "y": 0.73 },
+    "leftFoot": { "x": 0.4, "y": 0.9 },
+    "rightFoot": { "x": 0.57, "y": 0.9 }
+  },
+  "drawOrder": [
+    "rightUpperArm",
+    "rightLowerArm",
+    "rightUpperLeg",
+    "rightLowerLeg",
+    "torso",
+    "leftUpperLeg",
+    "leftLowerLeg",
+    "leftUpperArm",
+    "leftLowerArm",
+    "head"
+  ]
+}
